@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
+  </head>
+  <body>
+    <div class="login">
+      <img src="background.jpg" alt="image" class="background" />
+      <form action="" class="login-form">
+        <h1 class="title">Login</h1>
+        <div class="login-fields">
+          <div class="login-box">
+            <input
+              type="email"
+              placeholder="Email ID"
+              required
+              class="login-input"
+            />
+            <i class="ri-mail-fill"></i>
+          </div>
+          <div class="login-box">
+            <input
+              type="password"
+              placeholder="Password"
+              required
+              class="login-input"
+            />
+            <i class="ri-lock-fill"></i>
+          </div>
+          <div class="check">
+            <div class="check-box">
+              <input type="checkbox" class="check-input" id="user-check" />
+              <label for="user-check" class="check-label">Remember me</label>
+            </div>
+            <a href="#" class="forgot">Forgot Password?</a>
+          </div>
+          <button class="login-button" type="submit">Login</button>
+          <div class="separator">
+            <hr class="line" />
+            <p>or</p>
+            <hr class="line" />
+          </div>
+          <div class="sign-in">
+            <button class="google">
+              <img src="google.png" alt="google" />
+              <p>Sign in with Google</p>
+            </button>
+          </div>
+          <div class="register">
+            Don`t have an account? <a href="#">Register</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
